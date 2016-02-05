@@ -17,12 +17,16 @@ def current_player(board)
       count += 1
     end
   end
+  return (count % 2 == 1 ? "O" : "X")
+=begin
     if count % 2 == 0
       return "X"
     end
     if count % 2 == 1
       return "O"
     end
+=end
+
 end
 
 
