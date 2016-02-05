@@ -17,7 +17,7 @@ def current_player(board)
       count += 1
     end
   end
-  return (count % 2 == 1 ? "O" : "X")
+  return (count % 2 == 0 ? "X" : "O")
 =begin
     if count % 2 == 0
       return "X"
